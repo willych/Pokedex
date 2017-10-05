@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pokedex</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <script type="text/javascript" src="js/cookies.js"></script>
+    <script type="text/javascript" src="js/data.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+</head>
+<body onload="init('init');">
+	<!-- If browser does not support javascript or have it enabled display this message -->
+	<noscript>
+    	<div id="noscript-warning">This page only works with JavaScript enabled</div>
+	</noscript>
+	<div id='container'>
+		<div id='left-container'>
+			<img src="images/blank.jpg" width="165" height="165" id="pokeImgFade">
+			<div id='selects'></div>
+		</div>
+		<div id='right-container'>
+			<div id='pName'><p id='pValue'></p></div>
+			<div id='resultForm'></div>
+		</div>
+	</div>
+</body>
+</html>
